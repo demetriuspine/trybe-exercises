@@ -4,11 +4,18 @@ h1 {
     font-family: sans-serif;
    }
 
+   ul {
+     width: 120px;
+   }
+
    p {
      font-weight: 600;
      font-size: 3em;
      font-style: italic;
      text-align: center;
+     width: 500px;
+     border-radius: 15%;
+     padding: 15px;
    }
 
    #bg-list {
@@ -34,7 +41,7 @@ h1 {
    .bg-ul-p {
      background-color: peru;
    }
-
    body {
      font-size: 16px;
    }
+
