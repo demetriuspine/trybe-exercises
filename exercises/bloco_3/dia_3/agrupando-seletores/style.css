@@ -1,8 +1,22 @@
-h1, p {
+body {
+    font-family: monospace;
+}
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h1, p, ul, ol {
     text-align: center;
 }
-ol:hover {
+ul:hover, ol:hover {
     background-color: black;
     color: white;
 }
-
+li:active {
+    color: yellow;
+    font-weight: bold;
+}
+ol, ul {
+    list-style: none;
+    
+}
