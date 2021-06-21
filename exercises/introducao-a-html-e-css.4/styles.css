@@ -28,3 +28,20 @@ li a {
     color: darkblue;
     font-weight: bold;
 }
+
+td:nth-child(odd) {
+    background-color: darkgreen;
+    color: darkturquoise;
+    font-weight: bold;
+    width: 180px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+td:nth-child(even) {
+    background-color: khaki;
+    color: midnightblue;
+    font-weight: bold;
+    width: 180px;
+    text-align: left;
+}
