@@ -8,6 +8,10 @@ header {
     color: gainsboro;
     font-weight: bold;
     padding: 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 ul {
     background-color: coral;
@@ -44,4 +48,48 @@ td:nth-child(even) {
     font-weight: bold;
     width: 180px;
     text-align: left;
+}
+
+aside {
+    background-color: lightgrey;
+    padding: 5px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    border: 2px solid red;
+    position: fixed;
+}
+
+article {
+    display: inline-block;
+    width: 70%;
+}
+
+main {
+    display: inline-block;
+    border: 2px solid red;
+    width: 100%;
+    margin-top: 100px;
+}
+
+section {
+    border: 2px solid red;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+body {
+    background-image: linear-gradient(yellow, lightgrey, green);
+}
+
+footer {
+    font-size: 15px;
+    margin-left: 15px;
 }
