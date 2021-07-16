@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum</title>
+  <!-- CSS only -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <fieldset>
+    <div>
+      <label for="full-name">Nome</label>
+      <input id="full-name" name="full-name" type="text" maxlength="4" placeholder="Digite seu nome inteiro" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" maxlength="50" placeholder="Digite se enfereço de e-mail" required>
+    </div>
+    <div>
+      <label for="cpf">CPF</label>
+      <input id="cpf" name="cpf" type="text" placeholder="Digite apenas os números de seu cpf" maxlength="11" required>
+    </div>
+    <div>
+      <label for="adress">Endereço</label>
+      <input id="adress" name="adress" type="text" placeholder="Digite seu endereço completo, com rua, número, complemento e bairro" maxlength="200" required>
+    </div>
+    <div>
+      <label for="city">Cidade</label>
+      <input id="city" name="city" type="text" placeholder="Digite em qual cidade você mora" maxlength="28" required>
+    </div>
+    <div>
+      <label for="states">Estado</label>
+      <select id="states" name="states" required>
+      </select>
+    </div>
+  </fieldset>
+  <hr>
+  <fieldset>
+    <div>
+      <label for="abstract">Resumo do currículo</label>
+      <textarea name="abstract" id="abstract" maxlength="1000" placeholder="Máximo de 1000 (mil) caracteres" required></textarea>
+    </div>
+    <div>
+      <label for="occupation">Cargo</label>
+      <input id="occupation" name="occupation" type="text" maxlength="40" placeholder="Qual o último cargo você teve?" required>
+    </div>
+    <div>
+      <label for="occupation-description">Descrição do cargo</label>
+      <input id="occupation-description" name="occupation-description" type="text" maxlength="500" placeholder="O que você fazia?" required>
+    </div>
+  </fieldset>
+  <script src="/script.js"></script>
+</body>
+</html>
