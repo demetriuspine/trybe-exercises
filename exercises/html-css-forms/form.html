@@ -6,52 +6,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Curriculum</title>
   <!-- CSS only -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <fieldset>
-    <div>
-      <label for="full-name">Nome</label>
-      <input id="full-name" name="full-name" type="text" maxlength="4" placeholder="Digite seu nome inteiro" required>
-    </div>
-    <div>
-      <label for="email">Email</label>
-      <input id="email" name="email" type="email" maxlength="50" placeholder="Digite se enfereço de e-mail" required>
-    </div>
-    <div>
-      <label for="cpf">CPF</label>
-      <input id="cpf" name="cpf" type="text" placeholder="Digite apenas os números de seu cpf" maxlength="11" required>
-    </div>
-    <div>
-      <label for="adress">Endereço</label>
-      <input id="adress" name="adress" type="text" placeholder="Digite seu endereço completo, com rua, número, complemento e bairro" maxlength="200" required>
-    </div>
-    <div>
-      <label for="city">Cidade</label>
-      <input id="city" name="city" type="text" placeholder="Digite em qual cidade você mora" maxlength="28" required>
-    </div>
-    <div>
-      <label for="states">Estado</label>
-      <select id="states" name="states" required>
-      </select>
-    </div>
-  </fieldset>
+  <header class="container">
+    <h1 class="display-1"> Preencha os campos abaixo</h1>
+  </header>
   <hr>
-  <fieldset>
-    <div>
-      <label for="abstract">Resumo do currículo</label>
-      <textarea name="abstract" id="abstract" maxlength="1000" placeholder="Máximo de 1000 (mil) caracteres" required></textarea>
+  <form action="" method="GET">
+    <div class="container-fluid">
+      <div class="container-fluid">
+        <label class="lead" for="full-name">Nome</label>
+        <input class="form-control" id="full-name" name="full-name" type="text" maxlength="4" placeholder="Digite seu nome inteiro" required>
+      </div>
+      <div class="container-fluid">
+        <label class="lead" for="email">Email</label>
+        <input class="form-control" id="email" name="email" type="email" maxlength="50" placeholder="Digite se enfereço de e-mail" required>
+      </div>
+      <div class="container-fluid">
+        <label class="lead" for="cpf">CPF</label>
+        <input class="form-control" id="cpf" name="cpf" type="text" placeholder="Digite apenas os números de seu cpf" maxlength="11" required>
+      </div>
+      <div class="container-fluid">
+        <label class="lead" for="adress">Endereço</label>
+        <input class="form-control" id="adress" name="adress" type="text" placeholder="Digite seu endereço completo, com rua, número, complemento e bairro" maxlength="200" required>
+      </div>
+      <div class="container-fluid">
+        <label class="lead" for="city">Cidade</label>
+        <input class="form-control" id="city" name="city" type="text" placeholder="Digite em qual cidade você mora" maxlength="28" required>
+      </div>
+      <div class="container-fluid">
+        <label class="lead" for="states">Estado</label>
+        <select class="form-select" id="states" name="states" required>
+        </select>
+      </div>
     </div>
-    <div>
-      <label for="occupation">Cargo</label>
-      <input id="occupation" name="occupation" type="text" maxlength="40" placeholder="Qual o último cargo você teve?" required>
+    <hr>
+    <div class="container-fluid">
+      <div class="container-fluid">
+        <label class="lead" for="abstract">Resumo do currículo</label>
+        <textarea class="form-control" name="abstract" id="abstract" maxlength="1000" placeholder="Máximo de 1000 (mil) caracteres" required></textarea>
+      </div>
+      <div class="container-fluid">
+        <label class="lead" for="occupation">Cargo</label>
+        <input class="form-control" id="occupation" name="occupation" type="text" maxlength="40" placeholder="Qual o último cargo você teve?" required>
+      </div>
+      <div class="container-fluid">
+        <label class="lead" for="occupation-description">Descrição do cargo</label>
+        <input class="form-control" id="occupation-description" name="occupation-description" type="text" maxlength="500" placeholder="O que você fazia?" required>
+      </div>
+      <div class="container-fluid">
+        <label class="lead" for="date">Data de início</label>
+        <input id="date" name="date" type="date" required>
+      </div>
+      <hr>
+      <div class="container-fluid buttons">
+        <button class="btn btn-lg btn-success" type="submit">ENVIAR !</button>
+        <button class="btn btn-outline-warning" type="reset">Limpar os dados</button>
+      </div>
     </div>
-    <div>
-      <label for="occupation-description">Descrição do cargo</label>
-      <input id="occupation-description" name="occupation-description" type="text" maxlength="500" placeholder="O que você fazia?" required>
-    </div>
-  </fieldset>
+  </form>
   <script src="/script.js"></script>
 </body>
 </html>

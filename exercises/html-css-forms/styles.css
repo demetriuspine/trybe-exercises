@@ -1,0 +1,19 @@
+.container-fluid label {
+  display: block;
+}
+
+.container-fluid input {
+  display: block;
+}
+
+header {
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
