@@ -87,3 +87,11 @@ p strong {
   }
 }
 
+@media screen and (max-width: 500px) {
+  body {
+    background-color: black;
+  }
+  p, h1 {
+    color: white
+  }
+}
