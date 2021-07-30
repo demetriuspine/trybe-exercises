@@ -3,7 +3,7 @@ let {books} = require('./database')
 
 //Retorne o nome do livro de menor nome.
 
-function smallerName() {
+const smallerName = () => {
   let nameBook;
   // escreva aqui o seu código
   nameBook = books[0].name
